@@ -1,0 +1,44 @@
+/*---Estilo para la lista---*/
+ul{
+	/*Permite quitar las viñetas*/
+	list-style-type: none;
+	/*Quitar Margenes*/
+	margin: 0px;
+	padding: 0px;
+	/*Especificamos borde primero el ancho del borde,
+	segundo el estilo y tercero el color*/
+	border: 1px solid #1E00FF;
+	/*Ancho de la lista*/
+	width:130px;
+}
+/*----Estilo para el enlace----*/
+a{
+
+font-family: 'Pacifico', cursive;
+/*Quitar el subrayado*/
+text-decoration: none;
+font-size: 22px;
+/*Convertir en bloque*/
+display: block;
+/*Relleno*/
+padding: 6px;
+border: 1px solid#1F1B59;
+background-color: #29449B;
+color: #FFFFFF;
+
+}
+/*Estilo para el enlace para la pseudoclase hover*/
+
+a:hover{
+
+color: #F20909;
+background-color: #010101;
+border-right-width: 5px;
+border-right-color: #F57777;
+
+
+
+
+
+
+}

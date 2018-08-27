@@ -1,0 +1,46 @@
+ul{
+	list-style: none;
+	margin:0px;
+	padding: 0px;
+	border:3px solid #F62C2C;
+	background-color: #453C3C;
+
+}
+li{
+	/*Cada item se debe visualizar en linea uno al lado 
+	del otro pero debe permitir que puedan, ser tratados como un bloque*/
+	display: inline-block;
+	width: 120px;
+}
+a{
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: 'Shadows Into Light', cursive;
+	padding: 4px;
+
+}
+a:hover{
+	color: #2FA0E1;
+	background-color: #1B7D42;
+    border-right-width: 7px;
+    border-right-color: #F62020;
+}
+.icon-home{
+	color: white;
+
+}
+.icon-newspaper{
+	color: white;
+}
+.icon-images{
+	color: white;
+}
+.icon-paste{
+	color: white;
+}
+.icon-play{
+	color: white;
+}
+.icon-phone{
+	color: white;
+}
